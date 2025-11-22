@@ -1,0 +1,1 @@
+Built a Cloud-Native E-Commerce Microservices App 🛒 using Spring Boot 3 with Product, Order, Payment, and Notification services 📦. Features JWT/OAuth2 security 🔑, Kafka messaging 📨, and RESTful APIs 🌐. Deployed with Docker & Kubernetes 🐳☸️.
