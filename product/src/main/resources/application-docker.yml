@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: product-service
+  config:
+    import: optional:configserver:http://config-server:8888
+
+
+
+
+#spring.h2.console.enabled=true
+#spring.jpa.hibernate.ddl-auto=create
+#spring.datasource.url=jdbc:h2:mem:test
+#spring.jpa.show-sql=true
+#mysql query conn...
+#spring.datasource.url=jdbc:mysql://localhost:3306/productservice
+#query show
+#spring.jpa.properties.hibernate.format_sql=true
+
+#post sql
+#spring.datasource.username=neondb_owner
+#spring.datasource.password=npg_tc0p4AxJXEvs
+
+#spring.application.name=product-service
+#
+#spring.datasource.url=jdbc:postgresql://localhost:5432/product
+#spring.datasource.username=awais
+#spring.datasource.password=awais
+#spring.jpa.database=postgresql
+#spring.jpa.show-sql=true
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect

@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: user-service
+  config:
+    import: optional:configserver:http://localhost:8888
+
+
+
+
+
+#postsqldatasource.url=jdbc:postgresql://localhost:5432/userdb
+##spring.
+#spring.datasource.username=awais
+#spring.datasource.password=Awais12@$
+#spring.jpa.database=postgresql
+#spring.jpa.show-sql=true
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+#h2
+#spring.h2.console.enabled=true
+#spring.datasource.url=jdbc:h2:mem:test
+#spring.jpa.show-sql=true
+#spring.jpa.hibernate.ddl-auto=create
+
+#spring.application.name=user-service
+#server.port=8082
+#spring.data.mongodb.uri=mongodb://localhost:27017/userdb
+#spring.data.mongodb.database=userdb
+
+#server:
+#  port: 8082
+#spring:
+#  application:
+#    name: user-service
+#  data:
+#    mongodb:
+#      database: userdb
+#      uri: mongodb://localhost:27017/userdb
